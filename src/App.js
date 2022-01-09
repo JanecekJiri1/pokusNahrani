@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>V prdeli</p>
+        <p>V prdeli 2</p>
         <a>Learn React</a>
       </header>
     </div>
