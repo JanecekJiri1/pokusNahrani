@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { FaGithub, FaFacebookF } from "react-icons/fa";
+import { FaGithub, FaFacebookF, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -9,7 +9,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>V prdeli 2</p>
         <FaGithub /> work?
-        <FaFacebookF /> work?
+        <FaFacebookF className="fab" /> work?
+        <FaEnvelope />
+        <FaInstagram />
         <a>Learn React</a>
       </header>
     </div>
